@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    mobile-phone.ldif                                  :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mhuman <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2016/03/29 11:52:25 by mhuman            #+#    #+#              #
+#    Updated: 2016/03/29 12:39:40 by mhuman           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+ldapmobile dn: cn=mhuman,ou=2015,ou=johannesburg,ou=people,dc=fr
+changetype: modify
+add: mobile-number
+mobile-number: 0725948365
